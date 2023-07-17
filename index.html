@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Flip Game</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="board">
+            <header class="menu">
+                <nav class="menu--nav">
+                    <div class="menu--nav-time">
+                        <strong id="player-time" class="blink" aria-label ="남은시간">0</strong>
+                    </div>
+                    <div class="menu--nav-stage">
+                        STAGE
+                        <strong id="player-stage" aria-label="스테이지">1</strong>
+                    </div>
+                    <div class="menu--nav-home">
+                        <a href="#" class="menu__nav-home--button" id="home-button">
+                            <!-- 아이콘 -->
+                        </a>
+                    </div>
+                </nav>
+            </header>
+        <main class="game">
+            <div class="game--board">
+
+            </div>
+        </main>
+        <div class="stage-clear"></div>
+        </div>
+
+        <div class="modal">
+            <div class="modal--content">
+                <div class="modal--content-title"></div>
+                <button class="white-button" type="button">닫기</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
